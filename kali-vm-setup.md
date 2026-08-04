@@ -36,7 +36,7 @@ Even after fixing the path and unblocking the file, VirtualBox kept refusing to 
 
 **Fix:** Fully removed the VM **and its files** from VirtualBox (right-click → Remove → “Delete the virtual machine files and virtual hard disks”). This cleared VirtualBox’s internal registry of the broken UUID.
 
-### Problem 5: Import only accepts .ova/.ovf — my file was .vbox
+### Problem 5: Import only accepts .ova/.ovf my file was .vbox
 
 After the full removal, I tried “Import” again, which only shows `.ova`/`.ovf` files. My Kali download only included `.vbox` + `.vdi` files, no `.ova`. Import was never going to work for this specific download.
 
@@ -54,7 +54,7 @@ After the full removal, I tried “Import” again, which only shows `.ova`/`.ov
 
 ## Key takeaways
 
-- **VM files should live in a plain local folder — not OneDrive, not Desktop if Desktop is synced.**
+- **VM files should live in a plain local folder  not OneDrive, not Desktop if Desktop is synced.**
 - **Check file Properties for “blocked” downloads before troubleshooting anything else** this can look like a totally unrelated error.
 - **`.vbox` files use “Open,” not “Import.”** Import is specifically for `.ova`/`.ovf` packages.
 - When VirtualBox complains about a UUID already existing, the fix is a full Remove + re-add, not just retrying the same attachment.
