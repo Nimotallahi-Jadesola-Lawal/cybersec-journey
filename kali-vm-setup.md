@@ -55,13 +55,15 @@ After the full removal, I tried “Import” again, which only shows `.ova`/`.ov
 ## Key takeaways
 
 - **VM files should live in a plain local folder  not OneDrive, not Desktop if Desktop is synced.**
-- **Check file Properties for “blocked” downloads before troubleshooting anything else** this can look like a totally unrelated error.
+- **Check file Properties for “blocked” downloads before troubleshooting anything else**; this can look like a totally unrelated error.
 - **`.vbox` files use “Open,” not “Import.”** Import is specifically for `.ova`/`.ovf` packages.
 - When VirtualBox complains about a UUID already existing, the fix is a full Remove + re-add, not just retrying the same attachment.
 - Debugging this took patience over cleverness; each error message, read carefully, pointed at the actual next step.
 
 ## Next steps
 
-- [ ] Explore the Kali desktop, get familiar with the terminal
-- [ ] Set up Metasploitable2 as a first vulnerable target (Month 2 of my roadmap)
-- [ ] Start documenting TryHackMe rooms alongside this
+- [ ] Explore the Kali desktop, get familiar with the terminal (in progress)
+- [ ] Complete TryHackMe Pre Security path, alongside Security+ study
+- [ ] Move to TryHackMe SOC Level 1 path after Pre Security is complete
+- [ ] Set up Metasploitable2 as a first vulnerable target (moved later in sequence, after foundational TryHackMe rooms are complete)
+- [ ] Continue documenting progress here and on LinkedIn weekly
